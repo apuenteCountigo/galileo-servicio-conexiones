@@ -8,15 +8,16 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EntityScan({"com.galileo.cu.commons.models"})
-public class ServicioConexionesApplication implements CommandLineRunner  {
+@EntityScan({ "com.galileo.cu.commons.models" })
+public class ServicioConexionesApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
         SpringApplication.run(ServicioConexionesApplication.class, args);
     }
+
     @Override
-	public void run(String... args) throws Exception {
-		System.out.println("**************************************");
-		System.out.println("Conexiones V-0618-14:38");
-	}
+    public void run(String... args) throws Exception {
+        System.out.println("**************************************");
+        System.out.println("Conexiones V-2408222214");
+    }
 }
