@@ -18,6 +18,6 @@ public class ServicioConexionesApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("**************************************");
-        System.out.println("Conexiones V1.1.1 24-10-30 15:33");
+        System.out.println("Conexiones V1.1.2 24-11-05 14:44");
     }
 }
