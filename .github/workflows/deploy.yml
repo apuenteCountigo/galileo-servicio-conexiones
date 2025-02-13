@@ -67,7 +67,6 @@ jobs:
           #key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            ssh -i ~/id_rsaalain mome@192.168.0.212 '
             cd galileo-dev-v1.1/conexiones &&
             if [ ! -d "galileo-servicio-conexiones" ]; then
               echo "validada galileo-dev-v1.1/conexiones/galileo-servicio-conexiones" &&
